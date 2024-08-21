@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <!-- Google Font CDN -->
+     <link rel="preconnect" href="https://fonts.googleapis.com" />
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+     <link
+       href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+       rel="stylesheet"
+     />
+     <!-- ------Font awesome ------ -->
+     <script src="https://kit.fontawesome.com/99554038b2.js" crossorigin="anonymous"></script>
+     <!-- DaisyUI CDN -->
+     <link
+       href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+       rel="stylesheet"
+       type="text/css"
+     />
+     <script src="https://cdn.tailwindcss.com"></script>
+
+     <!-- google fonts scc -->
+     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+        .manrope {
+      font-family: "Manrope", sans-serif;
+      font-optical-sizing: auto;
+  
+       font-style: normal;
+}
+ </style>
+
+ <!-- ------------ -->
+ <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            'arrow-bg': '#ABEF5F',
+            'white': '#FFFFFF',
+            'white2': '#FFFFFF'
+
+            
+            
+          },
+        },
+      },
+    }
+  </script>
+
+
+
+
+
+</head>
+<body class="manrope">
+    <!-- -----Header Section Start -->
+    <header class="mx-w-[1440px bg-gradient-to-b from-slate-100 to-white">
+        <nav class="w-11/12 mx-auto  ">
+            <div class="navbar">
+ <!------------------ navbar start----------------------- -->
+                <div class="navbar-start">
+                    <i class="fa-solid fa-arrow-right bg-arrow-bg  p-2 rounded-full -rotate-45"></i>
+                  <a class="btn btn-ghost text-3xl font-bold">Rinterio</a>
+                </div>
+ <!------------------ navbar center----------------------- -->   
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1 text-lg font-[500] text-gray-500">
+                    <li><a href="/" class="text-black">Home</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Portfolio</a></li>
+                    <li><a href="">Blogs</a></li>
+                    <li><a href="">Contact Us</a></li>
+                  </ul>
+                </div>
+  <!------------------ navbar -end----------------------- -->
+                <div class="navbar-end">
+
+                    <!-- ------icon div----- -->
+                   <div class=" space-x-3 hidden md:block">
+                    <i class="fa-solid fa-magnifying-glass p-2 rounded-full bg-white "></i>
+                    <i class="fa-solid fa-cart-shopping rounded-full bg-white  p-2"></i>
+                    <a class="btn bg-arrow-bg rounded-3xl"><span class="font-bold">Book Consult</span> <i class="fa-solid fa-arrow-right bg-black text-white p-2 rounded-full -rotate-45"></i> </a>
+                   </div>
+                  
+                    <!-- dorpdown menu------------ -->
+                      <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="h-5 w-5"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="2"
+                              d="M4 6h16M4 12h8m-8 6h16" />
+                          </svg>
+                        </div>
+                        <ul
+                          tabindex="0"
+                          class="menu menu-sm dropdown-content bg-white rounded-box z-[1] mt-3 md:w-1/2 w-52 right-1 p-2 shadow">
+                          <li><a href="">Home</a></li>
+                          <li><a href="">Services</a></li>
+                          <li><a href="">Portfolio</a></li>
+                          <li><a href="">Blogs</a></li>
+                          <li><a href="">Contact Us</a></li>
+                        </ul>
+                      </div>
+                      
+                    
+                </div>
+              </div>
+         </nav>
+        <!-- ----------------Hero Section Start---------------- -->
+
+        <section class="w-11/12 mx-auto ">
+            <!-- hero banner -->
+          <div class="items-center flex-col mx-auto flex">
+            <div class="w-full">
+                <img class="mx-auto" src="assets/banner.png" alt="">
+            </div>
+            <br>
+            <!-- hero content -->
+             <div class="md:w-2/3 w-full text-center">
+                 <h1 class="md:text-5xl text-2xl font-[900]">A barn house of this design has a striking appearance</h1>
+                 <br>
+                 <p>The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+                 <br>
+                 <button class="btn bg-arrow-bg rounded-3xl w-full md:w-1/5"><span class="font-bold">Biew Details</span> <i class="fa-solid fa-arrow-right bg-black text-white p-2  rounded-full -rotate-45"></i> </button>
+             </div>
+          </div>
+
+
+        </section>
+
+    </header>
+   <!-- -----Header Section End -->
+
+
+    <!-- -----main Section Start -->
+
+   <main>
+
+   </main>
+   <!-- -----main Section End -->
+
+   <!-- -----Header Section Start -->
+    <footer>
+
+    </footer>
+   <!-- -----Header Section Start -->
+
+
+
+</body>
+</html>
